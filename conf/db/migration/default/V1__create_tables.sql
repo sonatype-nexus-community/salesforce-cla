@@ -1,7 +1,7 @@
 CREATE SCHEMA IF NOT EXISTS salesforce;
 
 DROP TABLE IF EXISTS salesforce.CLA_Signature__c;
-DROP TABLE IF EXISTS salesforce.Contact;
+DROP TABLE IF EXISTS salesforce.Contact CASCADE;
 
 CREATE TABLE salesforce.Contact (
   id SERIAL PRIMARY KEY,

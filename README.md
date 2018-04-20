@@ -1,6 +1,8 @@
 DR CLA
 ======
 
+A change
+
 This is a set of tools for dealing with Contributor License Agreements for Open Source Salesforce projects.
 
 The tools provided are:
